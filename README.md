@@ -14,15 +14,15 @@ the constructor falls back to safe values if the email or password is invalid
 
 
 Bank Account (program_two)
-Account with account number, holder name, balance and PIN.
+Account with account number, holder name, balance and PIN. 
 
 all four fields are private, so similarly only public methods can access it(exposed to controlled access)
 deposit() rejects negative amounts, withdraw() rejects zero, negative or more than the balance
 
 
 How to run (from the src folder)
-javac practicingRealWorld/*.java
+javac practicingRealWorld/*.java 
 java practicingRealWorld.Driver
 
-javac BankAccount/*.java
+javac BankAccount/*.java 
 java BankAccount.Driver
