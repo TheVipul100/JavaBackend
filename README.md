@@ -21,8 +21,11 @@ deposit() rejects negative amounts, withdraw() rejects zero, negative or more th
 
 
 How to run (from the src folder)
-javac practicingRealWorld/*.java 
+
+javac practicingRealWorld/*.java                      
+
 java practicingRealWorld.Driver
 
 javac BankAccount/*.java 
+
 java BankAccount.Driver
