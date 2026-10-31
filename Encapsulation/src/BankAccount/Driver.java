@@ -17,7 +17,7 @@ public class Driver{
 
 
         // baAcc1.balance;  //  class hiding its internal data and exposes control access through methods to the field
-        baAcc1.setBalance(234);
+        baAcc1.withdraw(2160);
         System.out.println(baAcc1.getBalance());
 
         BankAccount[] arr = {bankAcc, baAcc, baAcc1};
