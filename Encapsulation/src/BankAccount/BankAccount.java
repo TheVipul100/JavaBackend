@@ -36,10 +36,10 @@ class BankAccount {
         return balance;
     }
 
-    public void setBalance(int balance)
-    {
-        this.balance = balance;
-    }
+    // public void setBalance(int balance)
+    // {
+    //     this.balance = balance;
+    // }   // no setBalance on purpose, money moves only through deposit() and withdraw()
 
     public void setPin(String pin) {
         this.pin = pin;
