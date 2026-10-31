@@ -47,15 +47,17 @@ each overriding `openAccount(...)`. Notes on the disadvantages of inheritance (t
 
 From the project root:
 
-```bash
-mkdir -p out
-javac -d out src/Netflix_Subscription/*.java
+```
+cd Inheritance
+mkdir out
+
+javac -d out src\Netflix_Subscription\*.java
 java -cp out Netflix_Subscription.Driver
 
-javac -d out src/program_one/*.java
+javac -d out src\program_one\*.java
 java -cp out program_one.Driver
 
-javac -d out src/program_two/*.java
+javac -d out src\program_two\*.java
 java -cp out program_two.Driver
 ```
 
