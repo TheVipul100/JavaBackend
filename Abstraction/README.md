@@ -9,7 +9,7 @@ abstraction/
 ├── README.md
 ├── .gitignore
 └── src/
-    ├── AbstractionPrac/     # report generator
+    ├── abstractionPrac/     # report generator
     │   ├── ReportGenerator.java
     │   ├── PdfReport.java
     │   ├── ExcelReport.java
@@ -20,7 +20,7 @@ abstraction/
         └── Driver.java
 ```
 
-## 1. Report generator (`AbstractionPrac`)
+## 1. Report generator (`abstractionPrac`)
 
 `ReportGenerator` is an abstract class. Its public method `generate()` runs three steps in a fixed order:
 
