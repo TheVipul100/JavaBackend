@@ -5,11 +5,11 @@ Small programs I wrote while learning abstraction in Java. The idea in both: hid
 ## Project structure
 
 ```
-abstraction/
+Abstraction/
 ├── README.md
 ├── .gitignore
 └── src/
-    ├── AbstractionPrac/     # report generator
+    ├── abstractionPrac/     # report generator
     │   ├── ReportGenerator.java
     │   ├── PdfReport.java
     │   ├── ExcelReport.java
@@ -20,7 +20,7 @@ abstraction/
         └── Driver.java
 ```
 
-## 1. Report generator (`AbstractionPrac`)
+## 1. Report generator (`abstractionPrac`)
 
 `ReportGenerator` is an abstract class. Its public method `generate()` runs three steps in a fixed order:
 
@@ -40,15 +40,15 @@ Open a terminal in the `src` folder, then:
 
 ```bash
 # report generator
-javac AbstractionPrac/*.java
-java AbstractionPrac.Client
+javac abstractionPrac/*.java
+java abstractionPrac.Client
 
 # food order
 javac abstraction/*.java
 java abstraction.Driver
 ```
 
-On Windows Command Prompt, use backslashes in the `javac` paths (`AbstractionPrac\*.java`).
+On Windows Command Prompt, use backslashes in the `javac` paths (`abstractionPrac\*.java`).
 
 Sample output for the food order:
 
