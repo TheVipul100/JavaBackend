@@ -70,11 +70,3 @@ java -cp ../out InstanceInit
 2. In `Pract3`, the overridden `show()` runs from the parent constructor and prints `0`. Avoid calling overridable methods in constructors.
 3. In `Pract4`, no static block runs because the constants are inlined by the compiler.
 
-## .gitignore
-
-```
-out/
-*.class
-.idea/
-*.iml
-```
