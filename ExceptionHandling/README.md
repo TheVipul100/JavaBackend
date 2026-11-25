@@ -121,8 +121,3 @@ Custom exceptions (checked and unchecked), try-with-resources, suppressed except
 
 
 \---
-
-
-
-\*Practiced with AI help for questions and code review. I rewrote, ran and tested the code myself.\*
-
